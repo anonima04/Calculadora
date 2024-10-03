@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <h1 class="animate__bounceIn" id="Mi Calculadora">Mi Calculadora</h1>
+    <!-- <form action=""></form>
+        <input id="a" type="text" placeholder="Ingresar Numero">
+        <input id="b" type="text" placeholder="Ingresar Numero">
+       
+    </form> -->
+    <div id="contenedor">
+        <input id="display" type="text" placeholder="0" autocomplete="off">
+        <div id="numeros">
+            <button  class="numero" id="ac">AC</button>
+            <button  class="numero" id="borrar"><a class="fas fa-backspace"></a></a></button>
+            <button  class="numero" id="porcentaje">%</button>
+            <button class="numero" id="uno">1</button>
+            <button  class="numero" id="dos">2</button>
+            <button class="numero" id="tres">3</button>
+            <button class="numero" id="cuatro">4</button>
+            <button class="numero" id="cinco">5</button>
+            <button class="numero" id="seis">6</button>
+            <button class="numero" id="siete">7</button>
+            <button class="numero" id="ocho">8</button>
+            <button class="numero" id="nueve">9</button>
+            <button class="numero" id="cero">0</button>
+            <button class="numero" id="punto">.</button>
+          
+            <input class="operacion" id="buttonSuma" type="button" value="+">
+            <input class="operacion" id="buttonRestar" type="button" value="-">
+            <input class="operacion" id="buttonDividir" type="button" value="/">
+            <input class="operacion" id="buttonMultiplicar" type="button" value="*">
+            <input id="igual" type="button" value="=">
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
